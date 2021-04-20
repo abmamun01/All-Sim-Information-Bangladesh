@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeletalkCode"
+    android:orientation="vertical">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@drawable/simbac"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="1.* 121 # প্রাথমিক মেনু"
+                    android:textColor="#FF0000"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="⚫* 121 # ডায়াল করার পরে # টেলিটক একাধিক পরিষেবা দেখায় ...\n\n⚫যথোপযুক্ত সৃষ্টিকর্তাযথোপযুক্ত সৃষ্টিকর্তা\n\n⚫ভারসাম্য স্থিতি\n\⚫ভ্যাস সেবা\n\n⚫নিজের যত্ন\n\n⚫এফএনএফ নিয়ন্ত্রণ প্যানেল\n\n⚫আরও"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/textView4"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="2.  *১১১# মিনিট এবং ইন্টারনেট প্যাক"
+                    android:textColor="@color/black"
+
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="⚫টেলিটক ব্যবহারকারীর জন্য সর্বাধিক ফিমাস ডিলিং কোডটি যদি আপনি লিস্ট মিনিটের বান্ডিল প্যাকেজ এবং ইন্টারনেট অফারগুলি দেখানোর জন্য * 111 # ডায়াল করেন।\n\n⚫সমস্ত ইন্টারনেট প্যাকেজ\n\n⚫মিনিটের বান্ডেল অফারের তালিকা"
+                    android:textColor="@color/black"
+
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView6"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView6"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="3.* 1122 # জরুরী ভারসাম্য"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:text="⚫টেলিটকের জরুরী ব্যালেন্স কোডটি * ১১২২ # হয় ইউএসএসডি কোড ডায়াল করার পরে যোগ্য গ্রাহক তাত্ক্ষণিকভাবে বিডিটি.৫০ পর্যন্ত পেতে পারেন।
+
+অথবা বার্তা বিকল্পে যান এবং N লিখে 1122 (চার্জে বিনামূল্যে) এ প্রেরণ করুন।
+
+        * 1122 # ডায়াল করুন loanণের ভারসাম্যের জন্য 50 টাকা পেতে।"
+
+
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/textView8"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="4. * 551 # নিজস্ব নম্বর দেখান"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="⚫টেলিটক নম্বরের চেক কোডটি * 551 # কোডটি ডায়াল করার পরে আপনি আপনার নিজের টেলিটক নম্বর দেখতে পাবেন, গ্রাহক “ পি ” লিখে 154 নম্বরে এসএমএস পাঠিয়ে নিজের নম্বর পেতে পারবেন ।\n\n⚫নিজের টেলিটকের সিম নম্বর জানতে * 551 # ডায়াল করুন।\n\n⚫অথবা  পি  লিখে 154 নম্বরে মেসেজ অপশনে যান ।"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/textView10"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView10"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="5. * 152 # ব্যালেন্স চেক (প্রধান এ / সি, ডেটা, মিনিট, এসএমএস)"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="⚫টেলিটক সিম থেকে অ্যাকাউন্ট ব্যালেন্সের এসএমএস স্থিতির মিনিট ব্যালেন্স এবং ইন্টারনেট ডেটা ভলিউম দেখতে আপনাকে এই কোডটি * 152 # ডায়াল করতে হবে\n\n⚫মূল অ্যাকাউন্টের ভারসাম্য\n\n⚫ইন্টারনেট ডেটা ভলিউম\n\n⚫বাকি এসএমএস বান্ডেল চেক\n\n⚫মিনিট চেক"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/textView12"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView12"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12"
+                    android:paddingBottom="200dp"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

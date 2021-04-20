@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BanglalinkCode"
+    android:background="#F9F9F9"
+    android:orientation="vertical"
+    >
+
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:id="@+id/relativeLayout"
+      android:layout_width="match_parent"
+      android:layout_height="210dp"
+      android:background="@drawable/simbac4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="160dp"
+      app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+      android:layout_marginStart="14dp"
+      android:layout_marginEnd="14dp">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:scrollbars="none">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="32dp"
+         android:fontFamily="@font/roboto"
+         android:text="1.কীভাবে বাংলালিংক  Emergency Balance ব্যালেন্স পাবেন?"
+         android:textColor="#FF0000"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="24dp"
+         android:text="বাংলালিংকের নিজস্ব সিম নম্বরটি পরীক্ষা / প্রদর্শন করতে সাধারণত এই কোডটি ডায়াল করুন: * 511 #"
+         android:textColor="@color/black"
+         app:layout_constraintEnd_toEndOf="@+id/textView4"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="@+id/textView4"
+         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+     <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="48dp"
+         android:fontFamily="@font/roboto"
+         android:text="2.কিভাবে বাংলালিংক 4G  চেক করবেন?"
+         android:textColor="@color/black"
+
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+     <TextView
+         android:id="@+id/textView7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="32dp"
+         android:fontFamily="@font/roboto"
+         android:text="●Your আপনার বিএল 4G সিমটি পরীক্ষা করতে , 4G টাইপ করুন 5000 এ পাঠান ।"
+         android:textColor="@color/black"
+
+         android:textSize="16sp"
+         app:layout_constraintEnd_toEndOf="@+id/textView6"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="@+id/textView6"
+         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+     <TextView
+         android:id="@+id/textView8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="24dp"
+         android:text="3.কীভাবে বাংলালিংক জরুরী Internet Balance  পাবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+     <TextView
+         android:id="@+id/textView9"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="36dp"
+         android:text="⚫বাংলালিংক জরুরী ইন্টারনেট ব্যালেন্স উপভোগ করতে ডায়াল করুন * 875 #  12 এমবি @ 5 টাকা (মেয়াদ 2 দিন)\n\n⚫বাংলালিংক জরুরী ইন্টারনেট ব্যালেন্স জানতে ডায়াল করুন * 124 * 500 #\n\n⚫জরুরী ইন্টারনেটের অবস্থা জানতে দয়া করে * 875 * 0 # ডায়াল করুন"
+         android:textColor="@color/black"
+         app:layout_constraintEnd_toEndOf="@+id/textView8"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+     <TextView
+         android:id="@+id/textView10"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="14dp"
+         android:fontFamily="@font/roboto"
+         android:text="4.কীভাবে বাংলালিংক ইন্টারনেট চালু করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+     <TextView
+         android:id="@+id/textView11"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="28dp"
+         android:text="⚫বাংলালিংকের ইন্টারনেট প্যাকটি কিনতে ডায়াল করুন: * 5000 #\n\n⚫বাংলালিংক ইন্টারনেট প্যাকেজ বন্ধ করতে কেবল ডায়াল করুন: * 5000 * 566 # তারপরে  অটো-রিনিউয়াল বন্ধ করতে 2 দিয়ে জবাব দিন  ) বা টাইপ করুন: “ নতুন করে বন্ধ করুন ” এবং 5000 এ পাঠান \n\n⚫অবশিষ্ট এমবি ব্যালেন্স পরীক্ষা করতে ডায়াল করুন: * 5000 * 500 #\n\n⚫যে কোনও ইন্টারনেট প্যাকেজ নিষ্ক্রিয় করতে ডায়াল করুন: * 5000 * 536 #"
+         android:textColor="@color/black"
+         app:layout_constraintEnd_toEndOf="@+id/textView10"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="@+id/textView10"
+         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+     <TextView
+         android:id="@+id/textView12"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:fontFamily="@font/roboto"
+         android:text="5.কীভাবে বাংলালিংক সিম নম্বর চেক করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+     <TextView
+         android:id="@+id/textView13"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="24dp"
+         android:fontFamily="@font/roboto"
+         android:text="⚫বাংলালিংকের নিজস্ব সিম নম্বরটি পরীক্ষা / প্রদর্শন করতে সাধারণত এই কোডটি ডায়াল করুন: * 511 #"
+         android:textColor="@color/black"
+         app:layout_constraintEnd_toEndOf="@+id/textView12"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="@+id/textView12"
+         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+     <TextView
+         android:id="@+id/textView14"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:fontFamily="@font/roboto"
+         android:text="6.ডায়ালিং কোডের মাধ্যমে কীভাবে বিএল কল ওয়েটিং পরিষেবা সক্রিয় করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="@+id/textView13"
+         app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+     <TextView
+         android:id="@+id/textView15"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="28dp"
+         android:fontFamily="@font/roboto"
+         android:text="সক্রিয় বাংলালিংক কল ওয়েটিং সার্ভিসে ডায়াল করুন: * 43 # বাংলালিংক কল ওয়েটিং সার্ভিস বাতিল / নিষ্ক্রিয় করতে ডায়াল করুন: # 43 #"
+         android:textColor="@color/black"
+         app:layout_constraintStart_toStartOf="@+id/textView14"
+         app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+     <TextView
+         android:id="@+id/textView16"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="52dp"
+         android:fontFamily="@font/roboto"
+         android:text=" 7.কিভাবে ফিরে কল করতে অনুরোধ করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="@+id/textView15"
+         app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+     <TextView
+         android:id="@+id/textView17"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="36dp"
+         android:fontFamily="@font/roboto"
+         android:text="⚫আমাকে আবার কল করার জন্য অনুরোধ করতে ডায়াল করুন:  * 126 * টার্গেট নাম্বার # (সমস্ত বাংলালিংকের প্রিপেইড গ্রাহকরা এই পরিষেবাটি ব্যবহার করবেন)"
+         android:textColor="@color/black"
+         app:layout_constraintStart_toStartOf="@+id/textView16"
+         app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+     <TextView
+         android:id="@+id/textView18"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="24dp"
+         android:fontFamily="@font/roboto"
+         android:text="8.বাংলালিংকে কল ডাইভার্ট কীভাবে করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="@+id/textView17"
+         app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+     <TextView
+         android:id="@+id/textView19"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="40dp"
+         android:fontFamily="@font/roboto"
+         android:text="⚫বাংলালিংক সিমে কল ডাইভার্ট শুরু করতে ডায়াল করুন: * 21 * টার্গেটনম্বার #\n\n⚫বাংলালিংক সিমে কল ডাইভার্ট বন্ধ করতে ডায়াল করতে হবে: # 21 #\n\n⚫সমস্ত কল ডাইভার্ট শুরু করতে ডায়াল করুন: * 21 * 770 # (নম্বর ছাড়াই কল ডাইভার্ট)\n\n⚫সমস্ত কল ডাইভার্ট বন্ধ করতে কেবল # 21 # ডায়াল করুন"
+         android:textColor="@color/black"
+         app:layout_constraintStart_toStartOf="@+id/textView18"
+         app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+
+     <TextView
+         android:id="@+id/textView26"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:fontFamily="@font/roboto"
+         android:text="9.কীভাবে বিএল মিস কল সতর্কতা পরিষেবা চালু / বন্ধ করবেন?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+     <TextView
+         android:id="@+id/textView27"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="32dp"
+         android:fontFamily="@font/roboto"
+         android:text="⚫মিসড কল অ্যালার্ট উপর তারপর মেসেজ অপশনে গিয়ে টাইপ করুন: শুরু করুন এবং এটা পাঠান 622\n\n⚫অফ কল করতে, মিস কল সতর্কতা পরিষেবাটি বার্তা বিকল্পটিতে যান তারপরে টাইপ করুন: বন্ধ করুন  এবং এটি 622 এ প্রেরণ করুন "
+         android:textColor="@color/black"
+         app:layout_constraintStart_toStartOf="@+id/textView26"
+         app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+     <TextView
+         android:id="@+id/textView28"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="48dp"
+         android:fontFamily="@font/roboto"
+         android:text="10.বাংলালিংক সব ব্যালেন্স চেক কোড?"
+         android:textColor="@color/black"
+         android:textSize="22sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+     <TextView
+         android:id="@+id/textView29"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="32dp"
+         android:fontFamily="@font/roboto"
+         android:text="⚫বাংলালিংক মূল অ্যাকাউন্টের ব্যালেন্স পরীক্ষা করতে কেবল ডায়াল করুন: * 124 #\n\n⚫বোনাস / মিনিট চেক করতে কেবল এই কোডটি ডায়াল করুন: * 124 * 2 #\n\n⚫এসএমএসের অবশিষ্ট ডায়াল কোড পরীক্ষা করুন: * 124 * 2 #\n\n⚫বাংলালিংক এমবি চেক করতে কেবল ডায়াল করুন: * 5000 * 500 #\n\n⚫বাংলালিংক বোনাস এমবি চেক করতে ডায়াল করুন: * 124 * 5 #"
+         android:textColor="@color/black"
+         app:layout_constraintStart_toStartOf="@+id/textView28"
+         app:layout_constraintTop_toBottomOf="@+id/textView28"
+         android:paddingBottom="200dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+   </ScrollView>
+  </androidx.cardview.widget.CardView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+</LinearLayout>

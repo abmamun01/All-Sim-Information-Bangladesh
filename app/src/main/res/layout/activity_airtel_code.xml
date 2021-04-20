@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirtelCode"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@drawable/simbac2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="1.এয়ারটেল মিনিট (এয়ারটেল সমস্ত কোড) জন্য * 0 # ডায়াল করুন"
+                        android:textColor="#FF0000"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="⚫ভয়েস টকটাইম কিনে, এয়ারটেল মিনিট বান্ডিল প্যাকেজ তালিকার চেক কোড * 0 # আপনি যদি একটি মিনিট প্যাক কিনতে চান তবে আপনি শুনতে পান।"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="@+id/textView4"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView4"
+                        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="48dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="2.  * 1 # ।
+এয়ারটেল ব্যালেন্সের স্থিতির জন্য * 1 # ডায়াল করুন"
+                        android:textColor="@color/black"
+
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="⚫অবশিষ্ট ব্যালেন্স বা বকেয়া ভারসাম্য পেতে * 1 # কোড ডায়াল করার পরে, গ্রাহক ব্যালেন্স অনুসন্ধানের জন্য * 778 # ডায়াল করতে পারেন। আমরা সর্বশেষ ইউএসএসডি কোড * 1 # ব্যবহারের প্রস্তাব দিয়েছি।"
+                        android:textColor="@color/black"
+
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView6"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView6"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="3.এয়ারটেলের নিজস্ব মোবাইল নম্বরের জন্য * 2 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="⚫যদি এয়ারটেল ব্যবহারকারীরা তাদের নম্বর ভুলে যায় এবং আপনার নিজের নম্বর দেখতে চান, আপনার এয়ারটেল মোবাইল থেকে * 2 # ডায়াল করুন এবং নিজের নম্বর পান।"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="@+id/textView8"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="4.  * 3 # ।
+এয়ারটেল ইন্টারনেট ব্যালেন্স চেক / ডেটা চেকের জন্য * 3 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="⚫প্রতিটি ইন্টারনেট ব্যবহারকারীর জন্য, ইন্টারনেট ডেটা ব্যালেন্স এবং বৈধতা পরীক্ষা করতে আপনার * 3 # ডায়াল করতে হবে তারপরে পরবর্তী পদক্ষেপগুলি অনুসরণ করুন।"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="@+id/textView10"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView10"
+                        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="5.   * 4 # |
+কিনুন ইন্টারনেট প্যাকেজের জন্য * 4 # ডায়াল করুন (এয়ারটেল সমস্ত কোড)"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="⚫ডায়াল কোড দিয়ে এয়ারটেল ইন্টারনেট প্যাকেজ কেনার জন্য এয়ারটেল নিয়মিত ইন্টারনেট প্যাকেজটি কোনও প্যাকেজ নির্বাচন করুন তারপরে কিনতে, উপভোগ করতে কেবল * 4 # ডায়াল করুন।"
+                        android:textColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="@+id/textView12"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView12"
+                        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="6.* 5 # ।
+জনপ্রিয় ভিএএস সক্রিয় / নিষ্ক্রিয় করার জন্য * 5 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView13"
+                        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="⚫জনপ্রিয় ভ্যাস পরিষেবাটি সক্রিয় বা নিষ্ক্রিয় করতে ভ্যালু অ্যাডেড সার্ভিস (ভিএএস) * 5 # ডায়াল করুন, এটি আপনার অর্থ / সঞ্চয় করতে সহায়তা করবে।"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="@+id/textView14"
+                        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="52dp"
+                        android:fontFamily="@font/roboto"
+                        android:text=" 7.* 6 # ।
+জনপ্রিয় ভিএএস সক্রিয় / নিষ্ক্রিয় করার জন্য * 6 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView15"
+                        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="36dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="⚫আপনার সিম প্যাকেজটি জানতে এবং ট্যারিফ কল করতে ডায়াল করুন * 6 # এই কোডটি ডায়াল করার পরে এয়ারটেল আপনার ফোনে একটি বার্তা পাঠান তারপরে চেক-কল রেট এবং প্যাকেজ।"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="@+id/textView16"
+                        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="8.* 7 # ।
+প্রচারমূলক এসএমএস চালু / বন্ধ করার জন্য * 7 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="@+id/textView17"
+                        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="⚫ব্যবহারকারী প্রচুর সময় বিরক্তির বার্তা পেয়েছিলেন, প্রচার বার্তাটি কী? লোকে কল অফার বার্তা হ'ল প্রচারমূলক বার্তা। এই ধরণের এসএমএস বন্ধ করতে এই পরিষেবাটি নিয়ন্ত্রণ করতে কেবল * 7 # ডায়াল করুন।"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="@+id/textView18"
+                        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="9.* 8 # ।
+এয়ারটেল জরুরী ভারসাম্যের জন্য * 8 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32dp"
+                        android:text="⚫এই পরিষেবাটি পেতে আপনার এয়ারটেল সিম কার্ড ডায়াল * 8 # এর জন্য আপনার জরুরি ব্যালেন্সের প্রয়োজন হয়, এয়ারটেল ইমারজেন্সি ব্যালেন্সের অন্য নাম এয়ার ক্রেডিট।"
+                        app:layout_constraintStart_toStartOf="@+id/textView26"
+                        app:layout_constraintTop_toBottomOf="@+id/textView26"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/roboto"/>
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="48dp"
+                        android:fontFamily="@font/roboto"
+                        android:text="10.* 9 # ।
+এয়ারটেলের সমস্ত ভিএএস স্টপ অনুরোধের জন্য * 9 # ডায়াল করুন"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView27"
+                        android:paddingBottom="200dp"/>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/first">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FEA802">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="109dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sim" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="116dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_9" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="88dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView4"
+                app:srcCompat="@drawable/rectangle_8" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="132dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_10" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView10"
+                app:srcCompat="@drawable/star__1_" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/star__2_" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="49dp"
+                android:layout_height="61dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/notice" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="সকল সিমের প্রয়োজনীয় কোড"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView4"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/first"
+        android:layout_marginTop="50dp"
+        android:id="@+id/second">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7A04CA">
+
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:rotation="-12"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_1" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rotation="-13"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_2" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:rotation="-8"
+                app:layout_constraintStart_toStartOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_3" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:rotation="9"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_4" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="116dp"
+                android:rotation="31"
+                app:layout_constraintStart_toEndOf="@+id/imageView14"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_5" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="4dp"
+                android:rotation="59"
+                app:layout_constraintEnd_toStartOf="@+id/imageView17"
+                app:layout_constraintTop_toTopOf="@+id/imageView15"
+                app:srcCompat="@drawable/rectangle_6" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:rotation="59"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView15"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.169"
+                app:srcCompat="@drawable/rectangle_7" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="4dp"
+                android:text="NEW"
+                android:textColor="#C134F2"
+                android:textSize="23sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="24dp"
+                android:text="সকল সিমের অফার সমূহ"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/second"
+        android:layout_marginTop="50dp"
+        android:id="@+id/last">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#469FA5">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="435dp"
+                android:layout_height="500dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="-149dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/voterid"
+                tools:layout_editor_absoluteX="-129dp"
+
+
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                app:srcCompat="@drawable/ic_information"
+                />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="আপনার ভোটার আইডি দিয়ে কয়টি সিম খুলা"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:layout_toRightOf="@id/imageView18"
+                android:layout_marginStart="-270dp"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+<club.cred.synth.views.SynthImageButton
+    android:layout_width="62dp"
+    android:layout_height="62dp"
+    android:src="@drawable/star__1_"
+    android:layout_below="@id/last"/>
+
+
+
+</RelativeLayout>
